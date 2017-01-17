@@ -1,0 +1,538 @@
+html{
+  font-size:14px;
+  color:#2d2d2d;
+}
+
+/*Document Wide Rules*/
+.clearfix:before,
+.clearfix:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+a{
+  color:white;
+  outline:none;
+}
+
+a:hover, a:focus{
+  cursor:pointer;
+  color:#e2574c;
+}
+
+p{
+  font-family: 'raleway'
+}
+
+h2{
+  font-family: 'playfair';
+}
+
+h1{
+  display:none;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-style: italic;
+}
+
+.bold-text{
+  font-style: normal;
+  font-weight: bold;
+}
+
+/*HEADER  #####################################*/
+
+header{
+  padding: 14px;
+}
+
+.header-container{
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aloha-logo{
+  width:120px;
+}
+
+.cart-logo{
+  width: 50px;
+  cursor:pointer;
+}
+
+/*HERO  ######################################*/
+
+.hero{
+  text-align:center;
+  clear:both;
+  background:
+  linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
+  url(../images/banner-girl.png) no-repeat center 60px,url(../images/flower-bkgd.jpg) center top;
+  background-size: cover, 151px 370px, cover;
+  height:400px;
+  padding: 0 30px;
+  color:white;
+}
+
+.collection{
+  font-family: 'raleway';
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding-top: 140px;
+}
+
+.spring{
+  font-family: 'playfair';
+  font-size: 35px;
+  margin: 30px auto 0 auto;
+  text-shadow: 2px 2px 4px #969696;
+  max-width:670px;
+}
+
+/*SECOND HERO ################################*/
+
+.second-hero{
+  text-align:center;
+  padding: 48px 20px;
+}
+
+
+
+.second-hero p{
+  font-size: 16px;
+  margin: 22px auto 0px auto;
+  line-height: 200%;
+  max-width:650px;
+}
+
+hr{
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #d7d7d7;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* PRODUCT LIST #######################################*/
+
+.product-list{
+  text-align:center;
+  padding: 40px 0px;
+  margin-bottom: 32px;
+
+}
+
+.product-list ul{
+  list-style:none;
+  margin: 0 auto;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+
+.product-list li{
+  /*margin: 0 auto;*/
+}
+
+
+.product-image{
+  margin-top: 42px;
+}
+
+.product-category{
+  font-weight: bold;
+  font-size: 0.75rem;
+  color:#969696;
+}
+
+h3{
+  font-size: 1.6rem;
+  color:#e2574c;
+  margin: 20px auto 0 auto;
+  max-width: 70%;
+}
+
+.product-price{
+  font-size: 1rem;
+  font-weight: bold;
+  color:#969696;
+  margin-top: 20px;
+}
+
+/* UPDATES #########################################*/
+
+.updates{
+  clear:both;
+  text-align:center;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),url(../images/wave-bkgd.jpg) no-repeat center bottom;
+  margin-bottom:10px;
+  padding: 55px 5px;
+}
+
+.updates h2{
+  color:white;
+  text-shadow: 3px 3px 5px #969696;
+}
+
+.updates p{
+  color:white;
+  font-size: 1.1rem;
+  margin-top: 20px;
+  line-height: 200%;
+  margin-bottom:28px;
+  max-width:670px;
+}
+
+form{
+  border-radius: 30px;
+  height:40px;
+  width:80%;
+  margin:0 auto;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4px 0 20px;
+}
+
+input{
+  height:90%;
+  width:70%;
+  border: none;
+  outline: none;
+  font-family: raleway;
+  font-size: 1.1rem;
+  color:#969696;
+  outline:none;
+}
+
+input:focus{
+  color:black;
+}
+
+
+button{
+  background-color:#e2574c;
+  border:none;
+  height:85%;
+  border-radius:25px;
+  font-family: raleway;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color:white;
+  padding: 0 20px;
+  outline:none;
+}
+
+button:hover, button:focus{
+  background-color: #b64036;
+  cursor:pointer;
+}
+
+/*FOOTER ##############################################*/
+
+footer{
+  background-color:#242424;
+  padding: 60px 0;
+}
+
+.footer-container{
+  max-width: 1130px;
+  /*margin: 0 auto;*/
+}
+
+footer p{
+  font-family: 'playfair';
+  line-height: 150%;
+}
+
+.year{
+  color:white;
+  margin-bottom: 15px;
+  line-height: 125%;
+}
+
+.phone-email{
+  color:white;
+  margin-bottom: 15px;
+}
+
+.address{
+  color:#969696;
+}
+
+.contact-info{
+  text-align:center;
+}
+
+.social-list{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.social-icon{
+  color:white;
+  display:inline;
+  margin: 0px 6px 0px 6px;
+}
+
+.social-icon:hover, .social-icon:focus{
+  color: #e2574c;
+  cursor:pointer;
+}
+
+.social-name{
+  display:none;
+  font-family: raleway;
+  font-weight:normal;
+}
+
+@media screen and (min-width: 600px) {
+
+/*HEADER ###########################################*/
+
+html{
+  font-size: 16px;
+}
+
+header{
+  padding: 16px 30px;
+}
+
+.aloha-logo{
+  width:140px;
+}
+
+.cart-logo{
+  width: 55px;
+}
+
+/*HERO ############################################*/
+
+.collection{
+  font-size: 1.4rem;
+  padding-top: 150px;
+}
+
+.spring{
+  font-size: 3.3rem;
+  margin: 25px auto 0 auto;
+}
+
+/*SECOND HERO #####################################*/
+
+h2{
+  font-size: 2.4rem;
+}
+
+.second-hero{
+  padding: 54px 20px;
+}
+
+.second-hero p{
+  font-size: 1.2rem;
+}
+
+/* PRODUCT LIST #######################################*/
+
+.product-list{
+  margin-bottom: 90px;
+}
+
+.product-list li{
+  width: 50%;
+}
+
+.product-list ul{
+flex-direction:row;
+flex-wrap: wrap;
+flex-basis: 50%;
+}
+
+.product-image{
+  margin-top: 42px;
+  width:80%;
+  max-width: 320px;
+}
+
+.product-category{
+  font-size: 0.75rem;
+  margin-top: 20px;
+}
+
+h3{
+  font-size: 26px;
+}
+
+.product-price{
+  margin-top: 20px;
+}
+
+/*UPATES ##########################################*/
+
+.updates{
+  padding: 65px 5px;
+}
+
+.updates p{
+  font-size: 1.1rem;
+  margin: 25px auto;
+}
+
+form{
+  height:50px;
+  width:70%;
+  max-width: 400px;
+}
+
+input{
+  font-size: 1rem;
+}
+
+button{
+  font-size: 1rem;
+}
+
+/*FOOTER ##########################################*/
+
+footer{
+  padding: 66px 30px;
+}
+
+.footer-container{
+display:flex;
+flex-direction:row;
+justify-content: space-between;
+}
+
+.social-list{
+  text-align: left;
+  margin-top: 0px;
+
+}
+
+.social-icon{
+  display:block;
+}
+
+.social-name{
+  display:inline-block;
+}
+
+.social-list li{
+  margin-bottom: 14px;
+}
+
+.social-list i{
+  min-width: 25px;
+  margin-right: 5px;
+}
+
+
+
+.social-list{
+  display:block;
+}
+
+.contact-info{
+  text-align:left;
+}
+
+}
+
+@media screen and (min-width: 1240px) {
+
+  html{
+    font-size: 16px;
+  }
+
+/*HEADER ###########################################*/
+
+header{
+  padding: 16px 30px;
+}
+
+.aloha-logo{
+  width:160px;
+}
+
+.cart-logo{
+  width: 65px;
+}
+
+/*HERO  ##########################################*/
+
+.hero{
+background-size: cover, 250px 615px, contain;
+  padding: 75px 0px;
+}
+
+.collection{
+  font-size: 22px;
+  padding-top: 150px;
+}
+
+.spring{
+  font-size: 4.1rem;
+}
+
+/*SECOND HERO #####################################*/
+
+.second-hero{
+  padding: 54px 20px;
+}
+
+.second-hero p{
+  margin: 24px auto 0px auto;
+}
+
+/* PRODUCT LIST #######################################*/
+
+.product-list{
+  margin-bottom: 54px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-list ul{
+  max-width:1240px;
+  flex-basis: 25%;
+}
+
+.product-list li{
+  width: 25%;
+}
+
+.product-image{
+  max-width: 260px;
+}
+
+.product-category{
+  margin-top: 12px;
+}
+
+h3{
+  font-size: 1.625rem;
+}
+
+/*UPDATES ###################################*/
+
+.updates p{
+  max-width:670px;
+}
+
+/*FOOTER ##########################################*/
+
+footer{
+  padding: 65px 120px 65px 70px;
+}
+
+}
