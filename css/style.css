@@ -45,9 +45,7 @@ h2{
 
 /*HEADER  #####################################*/
 
-header{
-  padding: 14px;
-}
+
 
 .header-container{
   max-width: 1160px;
@@ -64,6 +62,33 @@ header{
 .cart-logo{
   width: 50px;
   cursor:pointer;
+}
+
+menu{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  padding: 4px 25px;
+  font-family: raleway;
+  font-weight: bold;
+  color: #e2574c;
+  box-sizing: border-box;
+  max-width:400px;
+  margin: 0 auto;
+}
+
+hr{
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #d7d7d7;
+  margin: 10px 0;
+  padding: 0;
+}
+
+header{
+  padding: 10px 14px;
+  /*position:fixed;*/
 }
 
 /*HERO  ######################################*/
