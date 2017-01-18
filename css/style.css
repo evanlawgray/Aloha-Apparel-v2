@@ -111,14 +111,87 @@ header{
   max-width:650px;
 }
 
-hr{
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #d7d7d7;
-  margin: 1em 0;
-  padding: 0;
+
+
+
+/*BOX O BOXES #########################################*/
+
+.box-o-categories{
+display:flex;
+flex-wrap: wrap;
 }
+
+.cat{
+  box-sizing: border-box;
+  display:flex;
+  justify-content: center;
+  padding-top: 50%;
+  max-width: 100%;
+  border: 0.3rem solid white;
+  flex-basis:50%;
+  position: relative;
+}
+
+.cat-mens{
+  display:flex;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),url(../images/mens-category.jpg) no-repeat center center;
+  background-size: cover, cover;
+  flex-basis:100%;
+  align-items: center;
+  border-left:0;
+  border-right:0;
+}
+
+.cat-name{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  font-family: raleway;
+  color:white;
+  font-weight: bold;
+  font-size:1.5rem;
+  text-shadow: 0px 0px 5px #242424;
+}
+
+.cat-trends{
+  text-align:center;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),url(../images/trends-category.jpg) no-repeat center bottom;
+  background-size: cover, cover;
+  border-left: 0;
+}
+
+.cat-glasses{
+  text-align:center;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),url(../images/glasses-category.jpg) no-repeat center bottom;
+  background-size: cover, cover;
+  border-right:0;
+}
+
+.cat-sale{
+  text-align:center;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),url(../images/sale-category.jpg) no-repeat center bottom;
+  background-size: cover, cover;
+  border-left:0;
+}
+
+.cat-bags{
+  text-align:center;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),url(../images/bags-category.jpg) no-repeat center bottom;
+  background-size: cover, cover;
+  border-right:0;
+}
+
+.cat-womens{
+  text-align:center;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),url(../images/womens-category.jpg) no-repeat center bottom;
+  flex-basis:100%;
+  background-size: cover, cover;
+  border-left:0;
+  border-right:0;
+}
+
+
 
 /* PRODUCT LIST #######################################*/
 
