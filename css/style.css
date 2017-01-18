@@ -1,7 +1,7 @@
 html{
   font-size:14px;
   color:#2d2d2d;
-  padding-top: 115px;
+  padding-top: 105px;
 }
 
 /*Document Wide Rules*/
@@ -406,18 +406,41 @@ footer p{
 
 html{
   font-size: 16px;
+  padding-top: 84px;
 }
 
 header{
-  padding: 16px 30px;
+  padding: 16px;
+  /*position: relative;*/
+}
+
+.header-container{
+}
+
+hr{
+display:none;
+}
+
+menu{
+  font-size: 0.9rem;
+  max-width:500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+}
+
+menu div{
+  padding: 0 10px;
 }
 
 .aloha-logo{
-  width:140px;
+  width:126px;
 }
 
 .cart-logo{
-  width: 55px;
+  width: 50px;
 }
 
 /*HERO ############################################*/
@@ -562,7 +585,11 @@ justify-content: space-between;
 /*HEADER ###########################################*/
 
 header{
-  padding: 16px 30px;
+  padding: 16px 0;
+}
+
+.header-container{
+  max-width: 1160px;
 }
 
 .aloha-logo{
@@ -571,6 +598,15 @@ header{
 
 .cart-logo{
   width: 65px;
+}
+
+menu{
+  font-size: 1rem;
+  /*max-width:600px;*/
+}
+
+menu div{
+  padding: 0 18px;
 }
 
 /*HERO  ##########################################*/
