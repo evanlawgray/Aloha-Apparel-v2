@@ -8,6 +8,7 @@ ehthumbs.db
 *[Tt]humbs.db
 *.Trashes
 jquery-3.1.1.js
+smooth-scroll.js
 
 # Ignore npm packages
 node_modules/

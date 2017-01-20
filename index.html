@@ -26,11 +26,11 @@
 
   <hr>
 
-  <menu>
-    <div>ABOUT</div>
-    <div>SHOP</div>
-    <div>FEATURED</div>
-    <div>UPDATES</div>
+  <menu class="menu-box">
+    <div><a data-scroll class= "menu-link" href="#about">ABOUT</a></div>
+    <div><a data-scroll class= "menu-link" href="#shop">SHOP</a></div>
+    <div><a data-scroll class= "menu-link" href="#featured">FEATURED</a></div>
+    <div><a data-scroll class= "menu-link" href="#updates">UPDATES</a></div>
   </menu>
 
 </header>
@@ -40,12 +40,12 @@
   <p class = "spring">Spring/Summer 2016</p>
 </section>
 
-<section class="second-hero">
+<section class="second-hero" id="about">
   <h2>Hand-Crafted <span class="bold-text">Styles</span></h2>
   <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</p>
 </section>
 
-<section class="box-o-categories">
+<section class="box-o-categories" id="shop">
   <div class="cat cat-mens">   <span class = "cat-name">MEN'S</span>  </div>
   <div class="cat cat-trends"> <span class = "cat-name">TRENDS</span> </div>
   <div class="cat cat-glasses"><span class = "cat-name">GLASSES</span></div>
@@ -54,7 +54,7 @@
   <div class="cat cat-womens"> <span class = "cat-name">WOMEN'S</span></div>
 </section>
 
-<section class="product-list">
+<section class="product-list" id="featured">
   <h2>Most-Loved <span class="bold-text">Products</span></h2>
   <ul>
     <li>
@@ -84,7 +84,7 @@
   </ul>
 </section>
 
-<section class="updates">
+<section class="updates" id="updates">
     <h2>Sign-up for <span class="bold-text">Updates</span></h2>
     <p>Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
     <form action="#" method="post">
@@ -120,7 +120,10 @@
   </div>
 </footer>
 
+
 <script src="jquery-3.1.1.js"></script>
+<script src="js/smooth-scroll.js"></script>
+<script>smoothScroll.init();</script>
 <script src="js/main.js"></script>
 </body>
 </html>

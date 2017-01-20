@@ -1,7 +1,7 @@
 html{
   font-size:14px;
   color:#2d2d2d;
-  padding-top: 105px;
+  margin-top: 110px;
 }
 
 /*Document Wide Rules*/
@@ -13,17 +13,17 @@ html{
 }
 
 a{
-  color:white;
   outline:none;
+  color:#e2574c;
 }
 
 a:hover, a:focus{
   cursor:pointer;
-  color:#e2574c;
+  color:#b64036;
 }
 
 p{
-  font-family: 'raleway'
+  font-family: 'raleway';
 }
 
 h2{
@@ -86,6 +86,12 @@ menu{
   box-sizing: border-box;
   max-width:400px;
   margin: 0 auto;
+  text-decoration: none;
+}
+
+menu a:link {
+  color: #e2574c;
+  text-decoration: none;
 }
 
 hr{
@@ -178,7 +184,6 @@ flex-wrap: wrap;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-
   font-family: raleway;
   color:white;
   font-weight: bold;
@@ -370,6 +375,14 @@ footer p{
   margin-bottom: 15px;
 }
 
+.phone-email a{
+  color:white;
+}
+
+.phone-email a:hover{
+  color:#e2574c;
+}
+
 .address{
   color:#969696;
 }
@@ -406,7 +419,7 @@ footer p{
 
 html{
   font-size: 16px;
-  padding-top: 84px;
+  margin-top: 84px;
 }
 
 header{
@@ -418,7 +431,7 @@ header{
 }
 
 hr{
-display:none;
+  display:none;
 }
 
 menu{
