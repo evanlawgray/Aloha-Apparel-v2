@@ -12,6 +12,7 @@ html{
   clear: both;
 }
 
+
 a{
   outline:none;
   color:#e2574c;
@@ -56,6 +57,7 @@ header{
   background:white;
   border-bottom: 1px solid #D3D3D3;
   box-shadow: 0px -2px 10px #D3D3D3;
+  z-index: 1;
 }
 
 .header-container{
@@ -167,8 +169,9 @@ flex-wrap: wrap;
   border: 0.3rem solid white;
   flex-basis:50%;
   position: relative;
-  z-index: -1;
 }
+
+
 
 .cat-mens{
   display:flex;
@@ -189,6 +192,10 @@ flex-wrap: wrap;
   font-weight: bold;
   font-size:1.5rem;
   text-shadow: 0px 0px 5px #242424;
+}
+
+.cat-name:hover{
+  color:#f5ebc6;
 }
 
 .cat-trends{
@@ -232,9 +239,29 @@ flex-wrap: wrap;
 
 /* PRODUCT LIST #######################################*/
 
+
+.carousel-cell {
+  width: 100%; /* full width */
+  /*height: 160px; /* height of carousel */*/
+  /*margin-right: 10px;*/
+}
+
+.carousel-cell button{
+  background-color: #242424;
+  /*font-weight: normal;*/
+  font-size: 0.85rem;
+  padding: 6px 15px;
+  margin-top: 20px;
+  margin-bottom: 42px;
+}
+
+.carousel-cell button:hover {
+  background-color: #0f87a2;
+}
+
 .product-list{
   text-align:center;
-  padding: 40px 0px;
+  padding: 40px 0 23px 0;
   margin-bottom: 32px;
 
 }
@@ -252,22 +279,27 @@ flex-wrap: wrap;
   /*margin: 0 auto;*/
 }
 
+.product-list h2{
+  padding: 14px 0;
+}
+
 
 .product-image{
-  margin-top: 42px;
+  padding-top: 45px;
 }
 
 .product-category{
   font-weight: bold;
   font-size: 0.75rem;
   color:#969696;
+  padding-top: 12px;
 }
 
 h3{
   font-size: 1.6rem;
   color:#e2574c;
   margin: 20px auto 0 auto;
-  max-width: 70%;
+  /*max-width: 70%;*/
 }
 
 .product-price{
@@ -475,11 +507,12 @@ h2{
 }
 
 .second-hero{
-  padding: 54px 20px;
+  padding: 67px 20px;
 }
 
 .second-hero p{
-  font-size: 1.2rem;
+  font-size: 1.15rem;
+  margin-top: 30px;
 }
 
 .box-o-categories{
@@ -525,8 +558,15 @@ h2{
 
 /* PRODUCT LIST #######################################*/
 
+.carousel-cell {
+  width: 50%; /* full width */
+  /*height: 160px; /* height of carousel */*/
+  /*margin-right: 10px;*/
+}
+
+
 .product-list{
-  margin-bottom: 90px;
+  margin-bottom: 40px;
 }
 
 .product-list li{
@@ -540,14 +580,16 @@ flex-basis: 50%;
 }
 
 .product-image{
-  margin-top: 42px;
+  /*margin-top: 42px;
   width:80%;
-  max-width: 320px;
+  max-width: 320px;*/
+  margin-top: 16px;
+  width:80%;
 }
 
 .product-category{
   font-size: 0.75rem;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 h3{
@@ -639,7 +681,7 @@ justify-content: space-between;
 /*HEADER ###########################################*/
 
 header{
-  padding: 16px 0;
+  padding: 14px 0;
 }
 
 .header-container{
@@ -667,7 +709,7 @@ menu div{
 
 .hero{
 background-size: cover, 250px 615px, contain;
-  padding: 75px 0px;
+  padding: 82px 0px;
 }
 
 .collection{
@@ -682,19 +724,28 @@ background-size: cover, 250px 615px, contain;
 /*SECOND HERO #####################################*/
 
 .second-hero{
-  padding: 54px 20px;
+  padding: 64px 20px;
 }
 
 .second-hero p{
   margin: 24px auto 0px auto;
 }
 
+.cat-name{
+  font-size: 2.4rem;
+}
+
 /* PRODUCT LIST #######################################*/
 
+.carousel-cell {
+  width: 25%; /* full width */
+  /*height: 160px; /* height of carousel */*/
+  /*margin-right: 10px;*/
+}
+
 .product-list{
-  margin-bottom: 54px;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto 54px auto;
 }
 
 .product-list ul{
@@ -707,7 +758,7 @@ background-size: cover, 250px 615px, contain;
 }
 
 .product-image{
-  max-width: 260px;
+  /*max-width: 260px;*/
 }
 
 .product-category{
@@ -719,6 +770,10 @@ h3{
 }
 
 /*UPDATES ###################################*/
+
+.updates {
+    padding: 67px 5px;
+}
 
 .updates p{
   max-width:670px;
