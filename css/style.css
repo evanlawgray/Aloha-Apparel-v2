@@ -45,6 +45,17 @@ h2{
   font-weight: bold;
 }
 
+button{
+  border:none;
+  height:85%;
+  border-radius:25px;
+  font-family: raleway;
+  font-weight: bold;
+  color:white;
+  padding: 0 20px;
+  outline:none;
+}
+
 /*HEADER  #####################################*/
 
 header{
@@ -72,9 +83,35 @@ header{
   width:120px;
 }
 
+.cart-container{
+position: relative;
+}
+
 .cart-logo{
   width: 50px;
   cursor:pointer;
+}
+
+.cart-counter{
+  display:none;
+  height:20px;
+  width:20px;
+  background-color:#e2574c;
+  border-radius: 50%;
+  position: absolute;
+  right:-4px;
+  top: -4px;
+}
+
+.counter-text{
+  color:white;
+  font-family: 'raleway';
+  font-weight: bold;
+  font-size:0.8rem;
+  display:block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 20px;
 }
 
 menu{
@@ -110,14 +147,12 @@ hr{
 
 .hero{
   text-align:center;
-  /*clear:both;*/
   background:
   linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
   url(../images/banner-girl.png) no-repeat center 60px,url(../images/flower-bkgd.jpg) center top;
   background-size: cover, 151px 370px, cover;
   height:400px;
   padding: 0 30px;
-  /*padding: 100px 30px 0px 30px;*/
   color:white;
 }
 
@@ -157,7 +192,6 @@ hr{
 .box-o-categories{
 display:flex;
 flex-wrap: wrap;
-/*z-index: -1;*/
 }
 
 .cat{
@@ -241,21 +275,17 @@ flex-wrap: wrap;
 
 
 .carousel-cell {
-  width: 100%; /* full width */
-  /*height: 160px; /* height of carousel */*/
-  /*margin-right: 10px;*/
 }
 
-.carousel-cell button{
+.add-to-cart-button{
   background-color: #242424;
-  /*font-weight: normal;*/
   font-size: 0.85rem;
   padding: 6px 15px;
   margin-top: 20px;
   margin-bottom: 42px;
 }
 
-.carousel-cell button:hover {
+.add-to-cart-button:hover {
   background-color: #0f87a2;
 }
 
@@ -272,11 +302,6 @@ flex-wrap: wrap;
   display:flex;
   flex-direction:column;
   align-items: center;
-}
-
-
-.product-list li{
-  /*margin: 0 auto;*/
 }
 
 .product-list h2{
@@ -299,7 +324,6 @@ h3{
   font-size: 1.6rem;
   color:#e2574c;
   margin: 20px auto 0 auto;
-  /*max-width: 70%;*/
 }
 
 .product-price{
@@ -361,20 +385,14 @@ input:focus{
 }
 
 
-button{
+.subscribe-button{
   background-color:#e2574c;
-  border:none;
   height:85%;
-  border-radius:25px;
-  font-family: raleway;
-  font-weight: bold;
   font-size: 1.1rem;
-  color:white;
   padding: 0 20px;
-  outline:none;
 }
 
-button:hover, button:focus{
+.subscribe-button:hover, .subscribe-button:focus{
   background-color: #b64036;
   cursor:pointer;
 }
@@ -388,7 +406,6 @@ footer{
 
 .footer-container{
   max-width: 1130px;
-  /*margin: 0 auto;*/
 }
 
 footer p{
@@ -456,7 +473,6 @@ html{
 
 header{
   padding: 16px;
-  /*position: relative;*/
 }
 
 .header-container{
@@ -519,8 +535,6 @@ h2{
 }
 
 .cat{
-  /*position: relative;*/
-  /*z-index: -1;*/
   padding-top: 25%;
 }
 
@@ -559,9 +573,7 @@ h2{
 /* PRODUCT LIST #######################################*/
 
 .carousel-cell {
-  width: 50%; /* full width */
-  /*height: 160px; /* height of carousel */*/
-  /*margin-right: 10px;*/
+  width: 50%;
 }
 
 
@@ -580,9 +592,6 @@ flex-basis: 50%;
 }
 
 .product-image{
-  /*margin-top: 42px;
-  width:80%;
-  max-width: 320px;*/
   margin-top: 16px;
   width:80%;
 }
@@ -696,9 +705,19 @@ header{
   width: 65px;
 }
 
+.cart-counter{
+  display:none;
+  height:22px;
+  width:22px;
+}
+
+.counter-text{
+  font-size:0.8rem;
+  line-height: 22px;
+}
+
 menu{
   font-size: 1rem;
-  /*max-width:600px;*/
 }
 
 menu div{
@@ -738,9 +757,7 @@ background-size: cover, 250px 615px, contain;
 /* PRODUCT LIST #######################################*/
 
 .carousel-cell {
-  width: 25%; /* full width */
-  /*height: 160px; /* height of carousel */*/
-  /*margin-right: 10px;*/
+  width: 25%;
 }
 
 .product-list{
@@ -758,7 +775,6 @@ background-size: cover, 250px 615px, contain;
 }
 
 .product-image{
-  /*max-width: 260px;*/
 }
 
 .product-category{
