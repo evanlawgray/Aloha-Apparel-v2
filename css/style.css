@@ -275,6 +275,7 @@ flex-wrap: wrap;
 
 
 .carousel-cell {
+  width:100%;
 }
 
 .add-to-cart-button{
@@ -544,11 +545,12 @@ h2{
 
 .cat-mens{
   flex-basis:50%;
-  border-right:8px solid white;
+  border-right:4px solid white;
 }
 
 .cat-trends{
   flex-basis:25%;
+  border-left:4px solid white;
 }
 
 .cat-glasses{
@@ -561,11 +563,12 @@ h2{
 
 .cat-bags{
   flex-basis:25%;
+  border-right:4px solid white;
 }
 
 .cat-womens{
   flex-basis:50%;
-  border-left:8px solid white;
+  border-left:4px solid white;
 }
 
 
@@ -709,6 +712,8 @@ header{
   display:none;
   height:22px;
   width:22px;
+  right:-2px;
+  top: -2px;
 }
 
 .counter-text{
