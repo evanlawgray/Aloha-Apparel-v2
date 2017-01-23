@@ -12,7 +12,7 @@ $(function() {
     //click handler for subscribe button
     //if empty ask user for valid email address
     //if valid email then thank user for subscribing
-    //uses default html5 behaviour for invalid text entry
+    //uses default html5 behaviour for invalid email
     $('.subscribe-button').on('click', function(event) {
 
         var newEmail = $('input').val();
