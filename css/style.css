@@ -4,6 +4,33 @@ html {
     margin-top: 110px;
 }
 
+.screen-reader-text {
+   clip: rect(1px, 1px, 1px, 1px);
+   position: absolute !important;
+   height: 1px;
+   width: 1px;
+   overflow: hidden;
+}
+
+.screen-reader-text:focus {
+   clip: auto !important;
+   display: block;
+   height: 50px;
+   left: 5px;
+   top: 5px;
+   width: auto;
+   z-index: 100000; /* above all content */
+   background-color: white;
+   box-shadow: 5px 3px 3px #888888;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+*:focus {
+    outline: #ABE0E8 solid 2px;
+}
+
 a {
     outline: none;
     color: #e2574c;
@@ -12,10 +39,6 @@ a {
 a:hover, a:focus {
     cursor: pointer;
     color: #b64036;
-}
-
-*:focus {
-    outline: #ABE0E8 solid 2px;
 }
 
 p {
